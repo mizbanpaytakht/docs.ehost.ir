@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.resellerhub.ir/" target="_blank">
-    <img width="280" src="https://docs.resellerhub.ir/logo2.png" alt="logo">
+    <img width="280" src="https://docs.ehost.ir/logo2.png" alt="logo">
   </a>
 </p>
 
