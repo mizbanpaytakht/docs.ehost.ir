@@ -1,5 +1,4 @@
 ---
 deployment:
-  tasks:
-   - export DEPLOYPATH=/home/username/public_html/
-   - /usr/bin/yarn build
+      tasks:
+        - /usr/bin/yarn build
