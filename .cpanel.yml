@@ -1,4 +1,4 @@
 ---
 deployment:
-      tasks:
+      tasks: 
         - /usr/bin/yarn build
