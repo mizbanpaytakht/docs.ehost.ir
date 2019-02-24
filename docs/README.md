@@ -1,31 +1,31 @@
 ---
 home: true
 features:
-- title: معرفی
+- title: امکانات
   img: /img/font-awesome_4-7-0_home_256_0_2c3e50_none.png
   uri: /intro/
   details: 
-- title: مشتریان
+- title: سبد خرید
   img: /img/font-awesome_4-7-0_users_256_0_2c3e50_none.png
   uri: /client/
   details: 
-- title: صورتحساب
+- title: حساب کاربری
   img: /img/font-awesome_4-7-0_file-o_256_0_2c3e50_none.png
   uri: /invoice/
   details:
-- title: سفارشات
+- title: دامنه
   img: /img/font-awesome_4-7-0_shopping-cart_256_0_2c3e50_none.png
   uri: /order/
   details:
-- title: درخواست پشتیبانی
+- title: صورتحساب‌ها
   img: /img/font-awesome_4-7-0_ticket_256_0_2c3e50_none.png
   uri: /ticket/
   details:    
-- title: قیمت
+- title: پشتیبانی
   img: /img/font-awesome_4-7-0_dollar_256_0_2c3e50_none.png
   uri: /pricing/
   details: 
-- title:  تخفیف
+- title:  سرویس‌ها
   img: /img/font-awesome_4-7-0_money_256_0_2c3e50_none.png
   uri: /promotion/
   details: 
@@ -33,7 +33,7 @@ features:
   img: /img/font-awesome_4-7-0_cogs_256_0_2c3e50_none.png
   uri: /configuration/
   details:     
-footer: © صاحب امتیاز تمامی حقوق وب‌سایت، ریسلرهاب می باشد. ۱۳۹۷-۱۳۸۹
+footer: © صاحب امتیاز تمامی حقوق وب‌سایت، میزبان وب پایتخت می باشد. ۱۳۹۷-۱۳۸۹
 ---
 
 ---
