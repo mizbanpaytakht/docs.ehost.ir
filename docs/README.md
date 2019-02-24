@@ -1,38 +1,38 @@
 ---
 home: true
 features:
-- title: معرفی
-  img: /img/font-awesome_4-7-0_home_256_0_2c3e50_none.png
-  uri: /intro/
-  details: 
-- title: مشتریان
+- title: حساب کاربری
   img: /img/font-awesome_4-7-0_users_256_0_2c3e50_none.png
   uri: /client/
-  details: 
-- title: صورتحساب
+  details:
+- title: دامنه‌ها
+  img: /img/font-awesome_4-7-0_home_256_0_2c3e50_none.png
+  uri: /domain/
+  details:
+- title: سرویس‌ها
+  img: /img/font-awesome_4-7-0_shopping-cart_256_0_2c3e50_none.png
+  uri: /service/
+  details:
+- title: پشتیبانی
+  img: /img/font-awesome_4-7-0_ticket_256_0_2c3e50_none.png
+  uri: /support/
+  details:
+- title: صورتحساب‌ها
   img: /img/font-awesome_4-7-0_file-o_256_0_2c3e50_none.png
   uri: /invoice/
   details:
-- title: سفارشات
-  img: /img/font-awesome_4-7-0_shopping-cart_256_0_2c3e50_none.png
-  uri: /order/
-  details:
-- title: درخواست پشتیبانی
-  img: /img/font-awesome_4-7-0_ticket_256_0_2c3e50_none.png
-  uri: /ticket/
-  details:    
-- title: قیمت
-  img: /img/font-awesome_4-7-0_dollar_256_0_2c3e50_none.png
-  uri: /pricing/
-  details: 
-- title:  تخفیف
+- title: سبد خرید
   img: /img/font-awesome_4-7-0_money_256_0_2c3e50_none.png
-  uri: /promotion/
-  details: 
-- title: پیکربندی
+  uri: /cart/
+  details:
+- title: ابزارها
+  img: /img/font-awesome_4-7-0_dollar_256_0_2c3e50_none.png
+  uri: /tools/
+  details:
+- title: وب سرویس
   img: /img/font-awesome_4-7-0_cogs_256_0_2c3e50_none.png
-  uri: /configuration/
-  details:     
+  uri: /api/
+  details:
 footer: © صاحب امتیاز تمامی حقوق وب‌سایت، میزبان وب پایتخت می‌باشد. ۱۳۹۷-۱۳۸۹
 ---
 
@@ -42,5 +42,5 @@ footer: © صاحب امتیاز تمامی حقوق وب‌سایت، میزب�
 اگر جواب سوال خود را در بین راهنمایی‌های اینجا پیدا نکردید، نگران نباشید!
 
 شما می‌توانید از طریق صفحه 
-[تماس با ما](https://www.resellerhub.ir/contact.php) 
-ریسلرهاب تیکت ارسال کنید یا با تماس تلفنی از راهنمایی پشتیبانان ریسلرهاب جواب خودتان را دریافت کنید.
+[تماس با ما](https://www.ehost.ir/billing/submitticket.php?step=2&deptid=3) 
+میزبان وب پایتخت درخواست پشتیبانی ارسال نمایید یا با تماس تلفنی از راهنمایی پشتیبانان میزبان وب پایتخت جواب خودتان را دریافت نمایید.
