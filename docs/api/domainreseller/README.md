@@ -307,5 +307,102 @@ curl 'http://www.ehost.ir/billing/domainsResellerAPI/api.php' --data 'token=AaLc
 {"result":"success"}
 ```
 
+## EXAMPLE CODE (PHP)
 
+```
+$data = array(
+    "action"		=> "RegisterDomain",
+    "sld"		=> "domainexample",
+    "tld"		=> "com",
+    "regperiod"		=> 1,
+    "nameserver1"       => "ns1.domainexample.com",
+    "nameserver2"       => "ns2.domainexample.com",
+    "nameserver3"       => "ns3.domainexample.com",
+    "nameserver4"       => "ns4.domainexample.com",
+    "nameserver5"       => "ns5.domainexample.com",
+    "dnsmanagement"	=> 1,
+    "emailforwarding"	=> 1,
+    "idprotection"	=> 1,
+    "adminfirstname"	=> "John",
+    "adminlastname"	=> "Doe",
+    "admincompanyname"	=> "Company Name",
+    "adminaddress1"	=> "Address 1",
+    "adminaddress2"	=> "Address 2",
+    "admincity"		=> "City",
+    "adminstate"	=> "ST",
+    "admincountry"	=> "IT",
+    "adminpostcode"	=> "12345",
+    "adminphonenumber"	=> "4455677888990",
+    "adminemail"	=> "admin@domainexample.com",
+    "additionalfields"  => array()
+);
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "http://www.ehost.ir/billing/domainsResellerAPI/api.php");
+curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+curl_setopt($ch, CURLOPT_FRESH_CONNECT, 1);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HEADER, true);
+curl_setopt($ch, CURLINFO_HEADER_OUT, 1);
+$result = curl_exec($ch);
+$res    = json_decode($result, true);
+print_r($res);
+curl_close($ch);
+```
+
+
+# ماژول نمایندگی دامین برای WHMCS
+
+## نحوه فعالسازی ماژول نمایندگی دامین میزبان پایتخت برای WHMCS
+
+این آموزش شامل مراحل نصب و راه اندازی ماژول نمایندگی دامین میزبان پایتخت برای فروش مستقیم دامین از طریق سامانه WHMCS نصب شده برروی وب سایت شما و همچنین مدیریت دامین ها از طریق سامانه شما می باشد.
+**نیازمندی ها**
+حداقل نسخه WHMCS 5.0+
  
+ 
+## نحوه نصب و فعالسازی ماژول برروی WHMCS
+
+
+
+### مرحله 1:
+ابتدا فایل زیر را دانلود نموده و آن را در پوشه Modules در بخش Registrar قرار دهید.
+```
+http://www.ehost.ir/billing/domainsResellerAPI/EHOSTDomainReseller.zip
+```
+
+### مرحله 2:
+فایل additionaldomainfields.php را در آدرس includes/additionaldomainfields.php ویراش نمایید.
+کد زیر را قبل از پایان ?> در آخر فایل اضافه نمایید.
+```
+if(!defined('DS'))
+    define('DS',DIRECTORY_SEPARATOR);
+$filename = dirname(__FILE__).DS.'..'.DS.'modules'.DS.'registrars'.DS.'EHOSTDomainReseller'.DS.'EHOSTDomainReseller.php';
+if(file_exists($filename)){
+    require_once ($filename);
+    $fields = EHOSTDomainReseller_GetDomainFields();
+    if(is_array($fields))
+        $additionaldomainfields = $fields;     
+}
+``` 
+### مرحله 3:
+به بخش زیر رفته و ماژول MizbanPaytakhtDomainReseller را فعال نمایید.
+Setup -> Products/Services -> Domain Registrar
+ 
+### مرحله 4:
+حال برروی گزینه Configure کلیک کنید و مقادیر User Email و API Key که از طریق پرتال کاربران میزبان پایتخت در قسمت API نمایندگی دامین دریافت نموده اید را وارد کنید و سپس Save Changes نمایید.
+ 
+تنظیمات API ثبت نمایندگی دامین میزبان پایتخت
+
+### مرحله 5:
+به بخش زیر رفته و در قسمت Auto Registration مقدار EHOSTDomainReseller را برای پسوندهای مدنظر خودتان انتخاب نمایید.
+Setip -> Products/Services -> Domain Pricing
+سپس Save Changes را بزنید تا تغییرات ذخیره شوند.
+ 
+### مرحله 6:
+حال در قسمت Open Pricing اقدام به تغییر هزینه های ثبت، تمدید و انتقال دامین طبق تعرفه های مدنظر خودتان نمایید و سپس ذخیره کنید.
+ 
+### مرحله 7:
+شما با موفقیت سیستم نمایندگی ثبت دامین میزبان پایتخت را نصب و فعال نموده اید. حال می بایست از طریق پرتال کاربران اقدام به افزودن اعتبار به اکانت خودتان نمایید تا هنگام ثبت سفارش از سوی کاربر دامین شما به صورت خودکار از اعتباری که در اختیار میزبان پایتخت دارید کسر گردد.
+برای این منظور وارد پرتال کاربران میزبان پایتخت شوید و از بخش امور مالی اقدام به افزایش وجه و اعتبار به حساب خودتان نمایید.
