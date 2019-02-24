@@ -45,7 +45,7 @@ Exemplary API Response:
 ## REGISTERDOMAIN:
 این دستور برای ثبت دامین جدید به کار می رود.
 
-** پارامترهای Request **
+**پارامترهای Request**
 
 
 |  نام  |  نوع  |  اجباری؟  |  توضیحات  | 
