@@ -1,31 +1,31 @@
 ---
 home: true
 features:
-- title: امکانات
+- title: معرفی
   img: /img/font-awesome_4-7-0_home_256_0_2c3e50_none.png
   uri: /intro/
   details: 
-- title: سبد خرید
+- title: مشتریان
   img: /img/font-awesome_4-7-0_users_256_0_2c3e50_none.png
   uri: /client/
   details: 
-- title: حساب کاربری
+- title: صورتحساب
   img: /img/font-awesome_4-7-0_file-o_256_0_2c3e50_none.png
   uri: /invoice/
   details:
-- title: دامنه
+- title: سفارشات
   img: /img/font-awesome_4-7-0_shopping-cart_256_0_2c3e50_none.png
   uri: /order/
   details:
-- title: صورتحساب‌ها
+- title: درخواست پشتیبانی
   img: /img/font-awesome_4-7-0_ticket_256_0_2c3e50_none.png
   uri: /ticket/
   details:    
-- title: پشتیبانی
+- title: قیمت
   img: /img/font-awesome_4-7-0_dollar_256_0_2c3e50_none.png
   uri: /pricing/
   details: 
-- title:  سرویس‌ها
+- title:  تخفیف
   img: /img/font-awesome_4-7-0_money_256_0_2c3e50_none.png
   uri: /promotion/
   details: 
@@ -33,7 +33,7 @@ features:
   img: /img/font-awesome_4-7-0_cogs_256_0_2c3e50_none.png
   uri: /configuration/
   details:     
-footer: © صاحب امتیاز تمامی حقوق وب‌سایت، میزبان وب پایتخت می باشد. ۱۳۹۷-۱۳۸۹
+footer: © صاحب امتیاز تمامی حقوق وب‌سایت، میزبان وب پایتخت می‌باشد. ۱۳۹۷-۱۳۸۹
 ---
 
 ---
