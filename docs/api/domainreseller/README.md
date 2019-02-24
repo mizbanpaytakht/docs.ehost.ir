@@ -46,26 +46,28 @@ Exemplary API Response:
 این دستور برای ثبت دامین جدید به کار می رود.
 
 ** پارامترهای Request **
-|نام|نوع|اجباری؟|توضیحات|
-|-|-|-|-|
-|sld|String|Yes|Domain name|
-|tld|String|Yes|Suffix attached to domain name|
-|regperiod|Number|Yes|Registration period|
-|nameserver1|String|Yes|First nameserver|
-|nameserver2|String|Yes|Second nameserver|
-|nameserver3|String|No|Third nameserver|
-|nameserver4|String|No|Fourth nameserver|
-|nameserver5|String|No|Fifth nameserver|
-|adminfirstname|String|Yes|First name of the admin user|
-|adminlastname|String|Yes|Last name of the admin user|
-|adminaddress1|String|Yes|First part of admin user address|
-|adminaddress2|String|No|Second part of admin user address|
-|admincity|String|Yes|City of the admin user|
-|adminstate|String|Yes|State/Province of the admin user|
-|adminpostcode|String|Yes|Postal/ZIP Code of the admin user|
-|admincountry|String|Yes|Country of the admin user|
-|adminphonenumber|String|Yes|Phone number in the format +NNN.NNNNNNNNNN|
-|adminemail|String|Yes|Email address of the admin user|
-|dnsmanagement|Number|No|Enables dns management for this domain|
-|emailforwarding|Number|No|Enables email forwarding for this domain|
-|idprotection|Number|No|Enables id protection for this domain|
+
+
+|  نام  |  نوع  |  اجباری؟  |  توضیحات  | 
+| --------- | --------- | --------- | -------- | 
+| sld | String | Yes | Domain name | 
+| tld | String | Yes | Suffix attached to domain name | 
+| regperiod | Number | Yes | Registration period | 
+| nameserver1 | String | Yes | First nameserver | 
+| nameserver2 | String | Yes | Second nameserver | 
+| nameserver3 | String | No | Third nameserver | 
+| nameserver4 | String | No | Fourth nameserver | 
+| nameserver5 | String | No | Fifth nameserver | 
+| adminfirstname | String | Yes | First name of the admin user | 
+| adminlastname | String | Yes | Last name of the admin user | 
+| adminaddress1 | String | Yes | First part of admin user address | 
+| adminaddress2 | String | No | Second part of admin user address | 
+| admincity | String | Yes | City of the admin user | 
+| adminstate | String | Yes | State/Province of the admin user | 
+| adminpostcode | String | Yes | Postal/ZIP Code of the admin user | 
+| admincountry | String | Yes | Country of the admin user | 
+| adminphonenumber | String | Yes | Phone number in the format +NNN.NNNNNNNNNN | 
+| adminemail | String | Yes | Email address of the admin user | 
+| dnsmanagement | Number | No | Enables dns management for this domain | 
+| emailforwarding | Number | No | Enables email forwarding for this domain | 
+| idprotection | Number | No | Enables id protection for this domain | 
