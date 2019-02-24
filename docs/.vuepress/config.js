@@ -8,7 +8,7 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: `https://www.resellerhub.ir/templates/resellerhub/template/img/icons/favicon.ico` }],
+    ['link', { rel: 'icon', href: `https://www.ehost.ir/wp-content/themes/ehost/assets/img/favicon.ico` }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['link', { rel: 'apple-touch-icon', href: `https://www.zarinpal.com/templates/resellerhub/template/img/icons/apple-touch-icon.png` }],
     ['link', { rel: 'mask-icon', href: 'https://www.resellerhub.ir/templates/resellerhub/template/img/icons/icon_dark.svg', color: '#01204a' }],
