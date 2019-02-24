@@ -3,8 +3,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'fa-IR',
-      title: 'راهنمای ریسلر هاب',
-      description: 'به دنیای راهنما و پشتیبانی ریسلرهاب خوش‌آمدید.'
+      title: 'راهنما میزبان پایتخت',
+      description: 'به دنیای راهنمای میزبان پایتخت خوش آمدید'
     }
   },
   head: [
@@ -17,7 +17,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: 'mizbanpaytakht/docs.resellerhub.ir',
+    repo: 'mizbanpaytakht/docs.ehost.ir',
     editLinks: true,
     docsDir: 'docs',
     locales: {
@@ -27,16 +27,12 @@ module.exports = {
         editLinkText: 'ویرایش و اصلاح متن',
         nav: [
           {
-            text: 'ریسلرهاب',
-            link: 'https://www.resellerhub.ir/',
+            text: 'میزبان پایتخت',
+            link: 'https://www.ehost.ir/',
           },
           {
-            text: 'شروع',
-            link: 'https://www.resellerhub.ir/start.php'
-          },
-          {
-            text: 'پرتال',
-            link: 'https://www.resellerhub.ir/clientarea.php'
+            text: 'پرتال کاربران',
+            link: 'https://www.ehost.ir/billing/clientarea.php'
           },
         ],
         sidebar: {
