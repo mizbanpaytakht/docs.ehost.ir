@@ -1,46 +1,33 @@
 ---
-home: true
-features:
-- title: معرفی
-  img: /img/font-awesome_4-7-0_home_256_0_2c3e50_none.png
-  uri: /intro/
-  details: 
-- title: مشتریان
-  img: /img/font-awesome_4-7-0_users_256_0_2c3e50_none.png
-  uri: /client/
-  details: 
-- title: صورتحساب
-  img: /img/font-awesome_4-7-0_file-o_256_0_2c3e50_none.png
-  uri: /invoice/
-  details:
-- title: سفارشات
-  img: /img/font-awesome_4-7-0_shopping-cart_256_0_2c3e50_none.png
-  uri: /order/
-  details:
-- title: درخواست پشتیبانی
-  img: /img/font-awesome_4-7-0_ticket_256_0_2c3e50_none.png
-  uri: /ticket/
-  details:    
-- title: قیمت
-  img: /img/font-awesome_4-7-0_dollar_256_0_2c3e50_none.png
-  uri: /pricing/
-  details: 
-- title:  تخفیف
-  img: /img/font-awesome_4-7-0_money_256_0_2c3e50_none.png
-  uri: /promotion/
-  details: 
-- title: پیکربندی
-  img: /img/font-awesome_4-7-0_cogs_256_0_2c3e50_none.png
-  uri: /configuration/
-  details:     
-footer: © صاحب امتیاز تمامی حقوق وب‌سایت، میزبان وب پایتخت می‌باشد. ۱۳۹۷-۱۳۸۹
+sidebar: auto
 ---
 
----
-**ما برای سوال شما جواب مناسبی نداشتیم؟**
+# پشتیبانی
 
-اگر جواب سوال خود را در بین راهنمایی‌های اینجا پیدا نکردید، نگران نباشید!
+## درخواست پشتیبانی
+[درخواست پشتیبانی جدید](https://www.ehost.ir/billing/submitticket.php)
+در این بخش می‌توانید به بخش‌های "پشتیبانی فنی"، "پشتیبانی فروش"، "روابط عمومی" و سایز بخش‌های تعریف شده در پرتال کاربران، درخواست پشتیبانی خود را ارسال نمایید.
 
-شما می‌توانید از طریق صفحه 
-[تماس با ما](https://www.resellerhub.ir/contact.php) 
-ریسلرهاب تیکت ارسال کنید یا با تماس تلفنی از راهنمایی پشتیبانان ریسلرهاب جواب خودتان را دریافت کنید.
+::: tip نکته
+جهت ارسال درخواست پشتیبانی فنی، اعلام دقیق جزییات سرویس/دامنه و توضیحات الزامی می‌باشد.
+:::
+
+## درخواست‌های پشتیبانی
+[درخواست‌های پشتیبانی](https://www.ehost.ir/billing/supporttickets.php)
+جهت مشاهده و پاسخگویی به درخواست‌های پشتیبانی ایجاد شده، می‌توانید بر روی لینک موضوع کلیک نمایید و درخواست خود را مشاهده نمایید و در صورت لزوم به آن پاسخ دهید.
+
+## وضعیت سرور
+[وضعیت سرور](https://www.ehost.ir/billing/serverstatus.php)
+جدول ارائه شده در این بخش وضعیت سرورها را نمایش می‌دهد. شما می‌توانید در صورت قطع بودن سرویس خود آن را بررسی نمایید.
+
+## دانلود فایل
+[دانلود فایل](https://www.ehost.ir/billing/downloads.php)
+در این بخش ابزارهای مورد نیاز جهت مدیریت سرویس‌های خود قابل دانلود می‌باشد.
+
+## اخبار
+[اخبار](https://www.ehost.ir/billing/announcements.php)
+آخرین اخبار و رویدادهای میزبان وب پایتخت از این قسمت قابل مشاهده می‌باشد.
+
+## مرکز آموزش
+[مرکز آموزش](https://www.ehost.ir/billing/knowledgebase.php)
+بزرگترین پایگاه داده و آموزش‌های وب‌سایت، میزبانی وب و سرور مجازی و اختصاصی در بخش مرکز آموزش گردآوری شده است.
